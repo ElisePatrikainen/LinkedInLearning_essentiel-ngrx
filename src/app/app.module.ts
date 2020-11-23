@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { ItemsComponent } from './components/items/items.component';
 import { ItemComponent } from './components/items/item/item.component';
 import { CartItemComponent } from './components/cart-items/cart-item/cart-item.component';
-import { ToolbarComponent } from './toolbar/toolbar.component';
+import { ToolbarComponent } from './components/shared/toolbar/toolbar.component';
 import { CartItemsComponent } from './components/cart-items/cart-items.component';
 
 @NgModule({
