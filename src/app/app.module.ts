@@ -8,6 +8,7 @@ import { ItemComponent } from './components/items/item/item.component';
 import { CartItemComponent } from './components/cart-items/cart-item/cart-item.component';
 import { ToolbarComponent } from './components/shared/toolbar/toolbar.component';
 import { CartItemsComponent } from './components/cart-items/cart-items.component';
+import { UnescapePipe } from './pipes/unescape.pipe';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CartItemsComponent } from './components/cart-items/cart-items.component
     ItemComponent,
     CartItemComponent,
     ToolbarComponent,
-    CartItemsComponent
+    CartItemsComponent,
+    UnescapePipe
   ],
   imports: [
     BrowserModule,
