@@ -24,6 +24,14 @@
         "availability": 10
     },
     {
+        "id": 5,
+        "title": "Chat 5",
+        "price": 3,
+        "imageUrl": "assets/catX.PNG",
+        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://www.instagram.com/za.za1573/&quot;&gt;G. Patrikainen&lt;/a&gt; on &lt;a href=&quot;https://www.instagram.com/p/CIL2DtFDu3r/&quot;&gt;Instagram&lt;/a&gt; 🔥&lt;/span&gt;",
+        "availability": 10
+    },
+    {
         "id": 4,
         "title": "Chat 4",
         "price": 3,
@@ -32,52 +40,11 @@
         "availability": 10
     },
     {
-        "id": 5,
-        "title": "Chat 5",
+        "id": 12,
+        "title": "Chat 12",
         "price": 3,
-        "imageUrl": "assets/catX.PNG",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://www.instagram.com/za.za1573/&quot;&gt;G. Patrikainen&lt;/a&gt; on &lt;a href=&quot;https://www.instagram.com/p/CIL2DtFDu3r/&quot;&gt;Instagram&lt;/a&gt; 🔥&lt;/span&gt;",
-        "availability": 10
-    },
-    
-    {
-        "id": 6,
-        "title": "Chat 6",
-        "price": 3,
-        "imageUrl": "assets/cat13.jpg",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@yaopey?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Yaopey Yong&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/dressed-cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
-        "availability": 10
-    },
-    {
-        "id": 7,
-        "title": "Chat 7",
-        "price": 3,
-        "imageUrl": "assets/cat1.jpg",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@joyfulcaptures?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Joyful&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cat-sleeping?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
-        "availability": 10
-    },
-    {
-        "id": 8,
-        "title": "Chat 8",
-        "price": 3,
-        "imageUrl": "assets/cat8.jpg",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@cyrus_c?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Cyrus Chew&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/stunning-cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
-        "availability": 10
-    },
-    {
-        "id": 9,
-        "title": "Chat 9",
-        "price": 3,
-        "imageUrl": "assets/cat10.jpg",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@snowboardinec?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Max Baskakov&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
-        "availability": 10
-    },
-    {
-        "id": 10,
-        "title": "Chat 10",
-        "price": 3,
-        "imageUrl": "assets/cat11.jpg",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@whatisdelirium?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Nadi Whatisdelirium&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/japanese-cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
+        "imageUrl": "assets/cat6.jpg",
+        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jacalynbeales?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jacalyn Beales&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cat-sleeping?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
         "availability": 10
     },
     {
@@ -88,13 +55,12 @@
         "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@charliefirth?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Charlie Firth&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/lucky-cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
         "availability": 10
     },
-    
     {
-        "id": 12,
-        "title": "Chat 12",
+        "id": 8,
+        "title": "Chat 8",
         "price": 3,
-        "imageUrl": "assets/cat6.jpg",
-        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@jacalynbeales?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Jacalyn Beales&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/cat-sleeping?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
+        "imageUrl": "assets/cat8.jpg",
+        "description": "&lt;span&gt;Photo by &lt;a href=&quot;https://unsplash.com/@cyrus_c?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Cyrus Chew&lt;/a&gt; on &lt;a href=&quot;https://unsplash.com/s/photos/stunning-cat?utm_source=unsplash&amp;amp;utm_medium=referral&amp;amp;utm_content=creditCopyText&quot;&gt;Unsplash&lt;/a&gt;&lt;/span&gt;",
         "availability": 10
     }
 ]
