@@ -1,3 +1,4 @@
+import { StateModule } from './state/state.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { MaterialModule } from './imports/material.module';
@@ -20,7 +21,8 @@ import { CartItemsComponent } from './components/cart-items/cart-items.component
   ],
   imports: [
     BrowserModule,
-    MaterialModule
+    MaterialModule,
+    StateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
