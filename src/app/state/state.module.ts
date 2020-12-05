@@ -3,6 +3,7 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
 import { StoreModule } from '@ngrx/store';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { reducers } from '.';
 
 
 
@@ -10,11 +11,7 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule,
-    StoreModule.forRoot({
-      items: () => {},
-      filters: () => {},
-      selectedItems: () => {}
-    }),
+    StoreModule.forRoot(reducers),
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,
