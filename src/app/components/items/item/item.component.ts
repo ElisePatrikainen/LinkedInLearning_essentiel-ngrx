@@ -1,3 +1,5 @@
+import { itemSelected } from 'src/app/state/selected-items/selected-items.actions';
+import { Store } from '@ngrx/store';
 import { Item } from './../../../models/item';
 import { Component, Input } from '@angular/core';
 
@@ -10,6 +12,12 @@ export class ItemComponent {
 
   @Input() item: Item;
 
-  constructor() { }
+  constructor(
+    private store: Store
+  ) { }
+
+  selectItem() {
+    this.store.dispatch(itemSelected());
+  }
 
 }
