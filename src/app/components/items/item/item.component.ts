@@ -17,7 +17,7 @@ export class ItemComponent {
   ) { }
 
   selectItem() {
-    this.store.dispatch(itemSelected());
+    this.store.dispatch(itemSelected({id: this.item.id}));
   }
 
 }
