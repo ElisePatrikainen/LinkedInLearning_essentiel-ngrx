@@ -8,7 +8,11 @@ import { CommonModule } from '@angular/common';
   declarations: [],
   imports: [
     CommonModule,
-    StoreModule.forRoot()
+    StoreModule.forRoot({
+      items: () => {},
+      filters: () => {},
+      selectedItems: () => {}
+    })
   ]
 })
 export class StateModule { }
