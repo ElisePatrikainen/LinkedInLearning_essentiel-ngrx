@@ -1,4 +1,3 @@
-import { ItemsService } from './../../services/items.service';
 import { Item } from './../../models/item';
 import { Component, OnInit } from '@angular/core';
 
@@ -9,14 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartItemsComponent implements OnInit {
 
-  // todo: mutualize?
   items: Item[];
 
-  constructor(private itemsService: ItemsService) { }
+  constructor() { }
 
   ngOnInit() {
-    // todo: make async !!
-    this.items = this.itemsService.getItems();
   }
 
 }
