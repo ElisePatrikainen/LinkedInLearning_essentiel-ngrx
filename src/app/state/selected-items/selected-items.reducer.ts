@@ -1,10 +1,8 @@
+import { createReducer, on } from '@ngrx/store';
 import { itemSelected } from './selected-items.actions';
 const initialState = 0;
 
-// pseudo code
-export const selectedItemsReducer = (state = initialState, action) => {
-    if (typeof action === itemSelected) {
-        return state + 1;
-    }
-    return state;
-};
+export const selectedItemsReducer = createReducer(
+    initialState,
+    on(itemSelected, (state) => state + 1)
+);
